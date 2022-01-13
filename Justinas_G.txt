@@ -1,0 +1,32 @@
+1.8 balai
+2.3 balai
+3.3 balai
+4.3 balai
+5.3 balai
+6.3 balai
+7.3 balai
+8.2 balai - ne viskas centruota su flexbox
+užduotis - 28/29 balai
+testas - 23/25 balai
+galutinis - 9
+
+
+Pastebėjimai:
+1. width:auto, height: auto - dažniausiai mum šitu nereikia rašyti, nes tai default reikšmes šitu taisykliu.
+Ta prasme jeigu mes ju neparašytume viskas veiktu lygiai taip pat. Nebent kažkokia tai priežastis to buvo.
+
+2. margin: auto - turbut geriau būtu rašyti margin: 0 auto nes auto y ašyje negalime naudoti - ta prasme
+neturės jokio efekto. Taip pat pastebėjau kad kai naudojam flexbox toje pačioje klasėje naudojat ir 
+margin: auto, nebent kažkokia priežastis to buvo, nes mano nuomone neturėtu tai duoti kažkokio tai irgi efekto.
+
+3. Maatau kad naudojat scss ir tai puiku tačiau kai rašot pseudo klases tokias kaip hover, jas keliate
+į kitą eilute su klasespavadinimas:hover, kai galėtumėte rašyti toje pačioje klasėje su &:hover.
+
+4. Recent-project sekcija. Naudojat hover pseudo klase uždedat transform property kad nuotrauka mažėtu ir tai puiku.
+Tačiau šalia esanti eilutė transition turėtu but iškelta iš hover pseudo klasės ir priskirta į paprastą klase.
+Konkrečiai kalbu apie 485 eilute iškelti į 480. Tada animacija turėtu veikti tvarkingai.
+
+5. footer sekcijoje nesu tikras ar ikonėlės yra sulygiuotos vertikalioj ašyje centre.
+Taip pat ir services sekcijoje lygiai tas pats. Vietoj naudojant padding centravimui galime panaudoti flexbox
+
+Bet overall viskas atrodo puikiai :) 

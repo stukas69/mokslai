@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+		sans-serif;
+}
+
+header {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: center;
+	height: 300px;
+	max-width: 1000px;
+	width: auto;
+	margin: 0 auto;
+	background: linear-gradient(rgb(31, 25, 36, 0.8), rgb(31, 25, 36, 0.8)),
+		url(https://i1.wp.com/grrip.eu/wp-content/uploads/2021/04/ocean.jpeg?fit=889%2C667&ssl=1)
+			no-repeat;
+	background-size: cover;
+	padding: 0 60px;
+	color: white;
+}
+
+h1 {
+	display: flex;
+	padding: 20px 0;
+	width: 100%;
+	border-bottom: white 2px solid;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.header {
+	display: flex;
+	width: 60%;
+	margin: 20px 0;
+}
+
+button {
+	background-color: rgb(131, 77, 182);
+	padding: 5px 15px;
+	border: white 1px solid;
+	font-weight: 600;
+	margin: auto 5px;
+	min-width: 140px;
+	color: white;
+}
+
+.content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: url(https://i1.wp.com/grrip.eu/wp-content/uploads/2021/04/ocean.jpeg?fit=889%2C667&ssl=1)
+		no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+	max-width: 1000px;
+	width: auto;
+	height: 300px;
+	color: white;
+}
+
+h2 {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+	padding-top: 95px;
+}
+
+.left-side {
+	background-color: rgb(52, 218, 201, 0.8);
+	flex-basis: 40%;
+	margin: 0 auto;
+	padding: 0 0 0 60px;
+	height: 100%;
+}
+
+.left-side:hover {
+	background: url(https://i1.wp.com/grrip.eu/wp-content/uploads/2021/04/ocean.jpeg?fit=889%2C667&ssl=1)
+		no-repeat;
+	background-size: cover;
+}
+
+.right-side {
+	background-color: rgb(150, 130, 238, 0.8);
+	flex-basis: 60%;
+	padding-left: 60px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.right-side:hover {
+	background: url(https://i1.wp.com/grrip.eu/wp-content/uploads/2021/04/ocean.jpeg?fit=889%2C667&ssl=1)
+		no-repeat;
+	background-size: cover;
+}
+
+.left-side p {
+	width: 50%;
+}
+
+.right-side p {
+	width: 30%;
+}
+
+.left-side p,
+.right-side p {
+	font-size: 12px;
+	border-top: white 2px solid;
+	padding-top: 20px;
+}
+
+.content:nth-child(2n-1) {
+	flex-direction: row-reverse;
+}

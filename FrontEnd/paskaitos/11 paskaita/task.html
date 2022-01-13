@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			* {
+				box-sizing: border-box;
+				margin: 0;
+				padding: 0;
+			}
+			.flex {
+				display: flex;
+				padding: 20px;
+				background-color: red;
+			}
+			@media (max-width: 785px) {
+				.child {
+					width: 100%;
+					height: 250px;
+					background-color: navy;
+				}
+				.flex {
+					flex-direction: column;
+				}
+			}
+			@media (min-width: 786px) {
+				.child {
+					height: 350px;
+					width: 50%;
+					background-color: yellow;
+				}
+			}
+			@media (min-width: 1200px) {
+				.child {
+					height: 450px;
+					width: 33%;
+					background-color: mediumseagreen;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<div class="child"></div>
+		</div>
+		<div class="flex">
+			<a href="">Home</a>
+			<a href="">Home</a>
+			<a href="">Home</a>
+			<a href="">Home</a>
+		</div>
+	</body>
+</html>

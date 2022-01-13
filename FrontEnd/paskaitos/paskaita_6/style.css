@@ -1,0 +1,17 @@
+.red {
+	background-color: red;
+	font-size: 64px;
+	padding: 20px;
+	display: inline;
+	margin: 10px;
+}
+.blue {
+	background-color: blue;
+	margin: 1rem;
+	font-size: 64px;
+	display: inline;
+	padding: 20px;
+}
+#mydiv {
+	color: white;
+}

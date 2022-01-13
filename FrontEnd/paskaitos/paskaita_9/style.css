@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 40px;
+}
+
+header div {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background-color: white;
+	align-items: center;
+	height: 54px;
+	border-bottom: 1px solid lightslategray;
+}
+
+header h1 {
+	font-size: 29px;
+	cursor: pointer;
+}
+
+header nav ul {
+	display: flex;
+	list-style: none;
+	align-items: center;
+}
+
+header nav ul li {
+	padding: 10px;
+	cursor: pointer;
+	font-size: 20px;
+	transition: transform 250ms ease-in-out;
+}
+
+header nav ul li:hover {
+	transform: translateY(-6px);
+}
+
+header nav ul li:last-child {
+	margin-right: 0;
+}
+
+.circle-small {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+main {
+	background-color: #afafafaf;
+}
+
+main .container {
+	display: flex;
+}
+
+.content {
+	padding: 20px 0;
+	flex: 0.6;
+	max-width: 600px;
+	overflow: hidden;
+}
+
+.content .content-header {
+	background-color: white;
+	border: 1px solid lightgrey;
+}
+
+.content .content-header ul {
+	list-style: none;
+	display: flex;
+	padding: 15px;
+}
+
+.content .content-header ul li {
+	margin-right: 10px;
+}
+
+.circle-medium {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	vertical-align: top;
+}
+
+.side-content {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex: 0.4;
+}

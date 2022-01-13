@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			* {
+				box-sizing: border-box;
+				margin: 0;
+				padding: 0;
+			}
+			.units {
+				background-color: crimson;
+				/* vh skiriasi nuo %, kad vh neziuri i tevini elementa */
+				height: 50vh;
+				width: 50vw;
+			}
+			.unit {
+				background-color: darkblue;
+				height: 100vh;
+				width: 100vw;
+				opacity: 0.5;
+			}
+			p {
+				color: lime;
+				background-color: white;
+			}
+			/* Media query rasome visada dokumento apacioje, kad perrasytu esamus stilius
+              */
+			/* @media (min-width: 600px) {
+				p {
+					color: darkred;
+					background-color: lightsalmon;
+				}
+			} */
+			/* Print screenui media query */
+			/* @media print  {
+				p {
+					color: black;
+					display: none;
+				}
+			} */
+			/* and tikrina abi salygas ir jos turi buti teisingos */
+			/* @media print and (min-width: 600px) {
+				p {
+					color: black;
+				}
+			} */
+			/* , reiskia arba. Turi viena is dvieju salygu buti teigiama kad stiliai 
+            pradetu veikti */
+			/* @media print, (max-width: 600px) {
+				p {
+					color: black;
+				}
+			} */
+			/*  screen - narsykles langas*/
+			/* @media screen and (max-width: 600px) {
+				p {
+					color: black;
+				}
+			} */
+			@media (min-width: 600px) {
+				p {
+					color: mediumpurple;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<!-- <div class="units">
+			<div class="unit"></div>
+		</div> -->
+		<img
+			src="https://picsum.photos/500/500"
+			alt="No image"
+			width="400"
+			height="400"
+			style="max-width: 100%"
+		/>
+		<p>
+			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia
+			voluptatibus repellendus perspiciatis nesciunt! Accusamus quaerat
+			eos aliquam impedit cumque quo voluptatum architecto. Unde, numquam
+			error dolorum saepe sapiente in quaerat!
+		</p>
+	</body>
+</html>

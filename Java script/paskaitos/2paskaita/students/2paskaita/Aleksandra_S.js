@@ -1,0 +1,10 @@
+let as_x = 50;
+let as_y = 10;
+let alexSuma = as_x + as_y;
+let alexSkirtumas = as_x - as_y;
+let alexDaugyba = as_x * as_y;
+let alexDalyba = as_x / as_y;
+console.log('AlexSuma', alexSuma);
+console.log('AlexSkirtumas', alexSkirtumas);
+console.log('AlexDaugyba', alexDaugyba);
+console.log('AlexDalyba', alexDalyba);

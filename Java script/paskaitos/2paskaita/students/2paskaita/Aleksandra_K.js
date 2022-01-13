@@ -1,0 +1,10 @@
+let ak_x = 10;
+let ak_y = 50;
+let akSuma = ak_x + ak_y;
+let akSkirtumas = ak_y - ak_x;
+let akDaugyba = ak_x * ak_y;
+let akDalyba = ak_y / ak_x;
+console.log('akSuma answer is:', akSuma);
+console.log('akSkirtumas answer is:', akSkirtumas);
+console.log('akDaugyba answer is:', akDaugyba);
+console.log('akDalyba answer is:', akDalyba);

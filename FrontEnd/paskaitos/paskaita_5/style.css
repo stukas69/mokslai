@@ -1,0 +1,25 @@
+body {
+	background: #eee;
+}
+
+header {
+	width: 75%;
+	text-align: center;
+	margin: 1rem auto;
+	background: white;
+	border-radius: 0.5rem;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+header img {
+	height: 4rem;
+}
+
+header a {
+	color: #000;
+	margin: 0 1rem;
+}
+
+nav {
+	padding: 1rem;
+}

@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+.box {
+	width: 200px;
+}
+
+.one {
+	min-height: 35px;
+	background-color: lightgreen;
+}
+.two {
+	min-height: 50px;
+	background-color: lightsalmon;
+}
+.three {
+	min-height: 75px;
+	background-color: lightblue;
+}
+
+.flex {
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+	gap: 20px;
+}
