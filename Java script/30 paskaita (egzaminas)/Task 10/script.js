@@ -1,7 +1,7 @@
 /* ------------------------------ TASK 9 ---------------------------------------------------
 Sutvarkykite užduoties "Task 10" esančius failus taip, kad veiktų žemiau pateiktos funcijos
 -------------------------------------------------------------------------------------------- */
-import { } from '.modules/math/composition.js';
+import { composition } from '.modules/math/composition.js';
 
 
 let a = composition(one, four);
