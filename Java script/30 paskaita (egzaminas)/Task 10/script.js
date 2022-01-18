@@ -2,6 +2,9 @@
 Sutvarkykite užduoties "Task 10" esančius failus taip, kad veiktų žemiau pateiktos funcijos
 -------------------------------------------------------------------------------------------- */
 import { composition } from './modules/math/composition.js';
+import { division } from './modules/math/division.js';
+import { substraction } from './modules/math/substraction.js';
+import { multiplication } from './modules/math/multiplication.js';
 
 
 let a = composition(one, four);
