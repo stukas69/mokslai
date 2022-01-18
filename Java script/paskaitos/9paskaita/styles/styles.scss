@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+body {
+	background-color: rgb(226, 226, 226);
+}
+.container {
+	margin: 0 auto;
+	max-width: 1000px;
+	padding: 0 2rem;
+	section {
+		width: 100%;
+		min-height: 40vh;
+		background-color: white;
+		border: 1px solid rgb(197, 197, 197);
+		display: flex;
+		gap: 1rem;
+		flex-wrap: wrap;
+		&:not(&:last-child) {
+			margin: 2rem 0;
+		}
+		.radio-background {
+			padding: 1rem 0 0 1rem;
+			h1 {
+				margin-bottom: 1rem;
+			}
+			div {
+				padding-bottom: 0.5rem;
+			}
+		}
+		&:last-child {
+			position: relative;
+			h1 {
+				margin: 1rem 0 0 1rem;
+				position: absolute;
+			}
+		}
+	}
+	.test {
+		color: red;
+	}
+}

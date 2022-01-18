@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+			body {
+				margin: 0;
+				padding: 0;
+				font-family: sans-serif;
+			}
+
+			form {
+				height: 100vh;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+			input,
+			textarea {
+				margin: 1rem 0;
+				width: 300px;
+			}
+			button {
+				background-color: royalblue;
+				padding: 1rem 2rem;
+				color: white;
+				border: none;
+				cursor: pointer;
+				margin-top: 1rem;
+			}
+
+			.notification {
+				position: fixed;
+				top: 1rem;
+				width: 100%;
+				display: none;
+				justify-content: center;
+			}
+			.notification__inner {
+				min-width: 300px;
+				border-radius: 1rem;
+				text-align: center;
+			}
+			.success {
+				background-color: lightgreen;
+			}
+			.error {
+				background-color: red;
+			}
+			.active {
+				display: flex;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="notification" class="notification">
+			<div class="notification__inner">
+				<h1></h1>
+			</div>
+		</div>
+		<form id="form">
+			<label for="title">Title</label>
+			<input type="text" name="title" id="title" />
+			<label for="description">Description</label>
+			<textarea
+				name="description"
+				id="description"
+				cols="30"
+				rows="3"
+			></textarea>
+			<label for="url">Image Url</label>
+			<input type="text" name="url" id="url" />
+			<button type="submit">Submit</button>
+		</form>
+		<script src="./addPost.js"></script>
+	</body>
+</html>

@@ -1,0 +1,60 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #e2e2e2;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 0 2rem;
+}
+
+.container section {
+  width: 100%;
+  min-height: 40vh;
+  background-color: white;
+  border: 1px solid #c5c5c5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container section {
+  margin: 2rem 0;
+}
+
+.container section .radio-background {
+  padding: 1rem 0 0 1rem;
+}
+
+.container section .radio-background h1 {
+  margin-bottom: 1rem;
+}
+
+.container section .radio-background div {
+  padding-bottom: 0.5rem;
+}
+
+.container section:last-child {
+  position: relative;
+}
+
+.container section:last-child h1 {
+  margin: 1rem 0 0 1rem;
+  position: absolute;
+}
+
+.container .test {
+  color: red;
+}
+/*# sourceMappingURL=styles.css.map */
