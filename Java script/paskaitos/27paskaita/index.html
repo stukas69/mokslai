@@ -1,0 +1,47 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.11.0/css/ol.css"
+			type="text/css"
+		/>
+		<style>
+			body {
+				margin: 0;
+				padding: 0;
+			}
+			.map {
+				height: 100vh;
+				width: 100%;
+			}
+			.sidebar {
+				position: absolute;
+				top: 0;
+				padding: 2rem;
+				margin: 0.5rem;
+				border-radius: 0.5rem;
+				background-color: white;
+			}
+			.weather {
+				position: absolute;
+				top: 95px;
+				margin: 0.5rem;
+				width: 300px;
+				border-radius: 0.5rem;
+				background-color: white;
+			}
+		</style>
+		<script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.11.0/build/ol.js"></script>
+		<title>Weather Map</title>
+	</head>
+	<body>
+		<div id="map" class="map"></div>
+		<div class="sidebar">
+			<input type="text" />
+			<button>Search</button>
+		</div>
+		<div class="weather"></div>
+		<script src="./script.js"></script>
+	</body>
+</html>
