@@ -8,3 +8,7 @@ pamatyti jo pateikto svorio kovertavimą į:
 Pastaba: atvaizdavimas turi būti matomas pateikus formą ir pateikiamas
 <div id="output"></div> viduje, bei turi turėti bent minimalų stilių;
 ------------------------------------------------------------------- */
+
+const svoris = document.getElementById('search').value;
+document.querySelectorAll('submit-btn')[0].value;
+
