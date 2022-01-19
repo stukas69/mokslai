@@ -8,3 +8,17 @@ pamatyti jo pateikto svorio kovertavimą į:
 Pastaba: atvaizdavimas turi būti matomas pateikus formą ir pateikiamas
 <div id="output"></div> viduje, bei turi turėti bent minimalų stilių;
 ------------------------------------------------------------------- */
+console.log(object)
+
+// document.querySelector('form').addEventListener('search-btn', (e) => {
+//     e.preventDefault();
+
+
+//     const weight = Number(document.getElementById('search').value);
+//     //   const qunat = Number(document.getElementById('quant').value);
+
+//     const total = weight * 2.2046;
+//     const weightDisplay = document.createElementById('div');
+//     weightDisplay.textContent = total.toFixed(2);
+//     document.body.append(weightDisplay);
+// });
